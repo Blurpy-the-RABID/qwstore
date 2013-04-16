@@ -11,3 +11,9 @@ two:
   description: MyText
   image_url: MyString
   price: 9.99
+
+ruby:
+  title: 3-ft. White Nylon Whip
+  description: This whip is three feet long and has not been dyed any color. It has a black grip-taped handle and a frayed pommel.
+  price: 15.00
+  image_url: 3ftWhiteWhip.png
