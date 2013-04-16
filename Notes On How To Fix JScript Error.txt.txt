@@ -1,0 +1,15 @@
+I found the solution to the "ExecJS::RuntimeError in Users#index (RoR)" error that I was getting when I started this project here:
+C:\RailsInstaller\Ruby1.9.3\lib\ruby\gems\1.9.1\gems\execjs-1.4.0\lib\execjs
+
+The location of the runtimes.rb file is here:
+C:\RailsInstaller\Ruby1.9.3\lib\ruby\gems\1.9.1\gems\execjs-1.4.0\lib\execjs\
+
+I had to change the JScript = ExternalRuntime.new() section to read out like this:
+JScript = ExternalRuntime.new(
+    :name        => "JScript",
+    :command     => "cscript //E:jscript //Nologo",
+    :runner_path => ExecJS.root + "/support/jscript_runner.js",
+    :encoding    => 'UTF-8' # CScript with //U returns UTF-16LE
+)
+
+Remember this if it ever comes up again in the future.
