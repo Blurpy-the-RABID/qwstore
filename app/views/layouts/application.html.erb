@@ -1,14 +1,41 @@
 <!DOCTYPE html>
 <html>
 <head>
-  <title>Qwstore</title>
+  <title>Quick Whips</title>
   <%= stylesheet_link_tag    "application", :media => "all" %>
   <%= javascript_include_tag "application" %>
   <%= csrf_meta_tags %>
 </head>
-<body class='<%= controller.controller_name %>'>
-
-<%= yield %>
-
+<body class="<%= controller.controller_name %>">
+	<header>
+		<div class="logo">
+		</div>
+	</header>
+	
+	<nav>
+		<ul class="navigation">
+			<li class="navigation_this" ><p><a href="index.html" class="navigation_a_this" >Home</a></p></li>
+			<li><p><a href="howtomake_materials.html" >How To Make...</a></p></li>
+			<li><p><a href="whipcare.html" >Whip Care</a></p></li>
+			<li><p><a href="store.html" >Buy One!</a></p></li>
+			<li><p><a href="contact.html" >Contact</a></p></li>
+		</ul>
+	</nav>
+<!--	
+	<div id="columns">
+		<div id="side">
+			<ul>
+				<li><a href="http://www....">Home</a></li>
+				<li><a href="http://www..../howtomake_materials">How To Make...</a></li>
+				<li><a href="http://www..../whipcare">Whip Care</a></li>
+				<li><a href="http://www..../store">Buy One!</a></li>
+				<li><a href="http://www..../contact">Contact</a></li>
+			</ul>
+		</div>
+-->		
+		<div id="main">
+			<%= yield %>
+		</div>
+	</div>
 </body>
 </html>
