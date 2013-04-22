@@ -2,15 +2,74 @@
 <p id="notice"><%= notice %></p>
 <% end %>
 
-<h1>Buy One!</h1>
-
-<% @products.each do |product| %>
-  <div class="entry">
-  	<%= image_tag(product.image_url) %>
-  	<h3><%= product.title %></h3>
-  	<p><%= sanitize(product.description) %></p>
-  	<div class="price_line">
-  		<span class="price"><%= number_to_currency(product.price) %></span>
-  	</div>
-  </div>
-<% end %>
+<div class="container">
+	<header>
+		<div class="logo">
+		</div>
+	</header>
+	
+	<nav>
+		<ul class="navigation">
+			<li><p><a href="index.html" >Home</a></p></li>
+			<li><p><a href="howtomake_materials.html" >How To Make...</a></p></li>
+			<li><p><a href="whipcare.html" >Whip Care</a></p></li>
+			<li class="navigation_this" ><p><a href="store.html" class="navigation_a_this" >Buy One!</a></p></li>
+			<li><p><a href="contact.html" >Contact</a></p></li>
+		</ul>
+	</nav>
+	
+	<div class="main_section">
+				<table class="main_table">
+					<tbody>
+						<tr>
+							<td>
+								<div class="textbox_header">So You'd Rather Buy One...</div>
+								<p>
+									Perhaps you think that making a nylon whip looks too complicated to do on your own.  Or perhaps you just 
+									don't feel like exerting the effort to gather all of the materials and make one yourself.  Whatever the 
+									reason, I've got an alternative solution for you!  I can make a nylon whip for you!  See below for a few 
+									whips that I have made and ready for shipping.
+								</p>
+								<br />
+							</td>
+							
+							<td class="index_img" >
+								<img src="/assets/whip.png" />
+							</td>
+						</tr>
+					</tbody>
+				</table>
+				
+				<table class="main_table">
+					<tbody>
+						<tr>
+							<td>
+								<div class="textbox_header">Ready To Ship:</div>
+								<% @products.each do |product| %>
+								<div class="entry">
+									<%= image_tag(product.image_url) %>
+									<h3><%= product.title %></h3>
+									<p><%= sanitize(product.description) %></p>
+									<div class="price_line">
+										<span class="price"><%= number_to_currency(product.price) %></span>
+									</div>
+								</div>
+								<% end %>
+							</td>
+						</tr>
+					</tbody>
+				</table>
+			</div>
+  <footer>
+	<div class="footer_div">
+		&copy; 2013 Quick Whips.  All Rights Reserved.<br />
+		All other trademarks are the property of their respective owners.
+	</div>
+				
+	<nav>
+		<div class="footer_div">
+			<a href="contact.html" class="footer_first" >Contact</a><a href="products.html" class="footer_a" >Buy One!</a>
+		</div>
+	</nav>
+	</footer>
+</div>
