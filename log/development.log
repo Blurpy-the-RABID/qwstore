@@ -10136,3 +10136,254 @@ Served asset /4ftRedWhip.png - 304 Not Modified (0ms)
 
 Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-04-22 19:11:40 -0400
 Served asset /6ftBlueWhip.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (228.5ms)[0m  [1mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "price" decimal(8,2), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (132.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (112.8ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (109.3ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130416135548')
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (94.8ms)[0m  [1mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "price" decimal(8,2), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (132.5ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (120.4ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (1.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (108.7ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130416135548')
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-22 19:53:55 -0400
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (6.0ms)
+Completed 200 OK in 48ms (Views: 47.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-22 19:53:55 -0400
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-04-22 19:53:55 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-04-22 19:53:55 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-22 19:53:55 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-22 19:53:55 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-22 19:53:55 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-04-22 19:53:55 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-04-22 19:53:55 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-22 19:53:55 -0400
+Served asset /application.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-04-22 19:53:56 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-04-22 19:53:56 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-04-22 19:53:56 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-04-22 19:53:56 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (137.0ms)[0m  [1mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "price" decimal(8,2), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (131.4ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (94.1ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (1.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (98.5ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130416135548')
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-22 20:00:38 -0400
+Processing by StoreController#index as HTML
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (25.0ms)
+Completed 200 OK in 45ms (Views: 45.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-22 20:00:38 -0400
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-04-22 20:00:38 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-22 20:00:38 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-04-22 20:00:38 -0400
+Served asset /store.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-22 20:00:38 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-22 20:00:39 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-04-22 20:00:39 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-04-22 20:00:39 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-22 20:00:39 -0400
+Served asset /application.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-04-22 20:00:39 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-04-22 20:00:39 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-04-22 20:00:39 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-04-22 20:00:39 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-04-22 20:00:44 -0400
+Processing by StoreController#index as HTML
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 42ms (Views: 41.0ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /store.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /application.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /header.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /nav_bar.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /nav_this.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-04-22 20:00:45 -0400
+Served asset /footer.png - 304 Not Modified (0ms)
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (126.0ms)[0m  [1mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "price" decimal(8,2), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (187.7ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (98.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (98.2ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130416135548')
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (1.0ms)[0m  select sqlite_version(*)
+  [1m[36m (131.5ms)[0m  [1mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "price" decimal(8,2), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (121.3ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (121.9ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (1.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (109.6ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130416135548')
+Connecting to database specified by database.yml
+  [1m[36m (0.0ms)[0m  [1mSELECT "schema_migrations"."version" FROM "schema_migrations" [0m
+  [1m[35m (0.0ms)[0m  select sqlite_version(*)
+  [1m[36m (151.0ms)[0m  [1mCREATE TABLE "products" ("id" INTEGER PRIMARY KEY AUTOINCREMENT NOT NULL, "title" varchar(255), "description" text, "image_url" varchar(255), "price" decimal(8,2), "created_at" datetime NOT NULL, "updated_at" datetime NOT NULL) [0m
+  [1m[35m (132.2ms)[0m  CREATE TABLE "schema_migrations" ("version" varchar(255) NOT NULL) 
+  [1m[36m (0.0ms)[0m  [1mPRAGMA index_list("schema_migrations")[0m
+  [1m[35m (114.7ms)[0m  CREATE UNIQUE INDEX "unique_schema_migrations" ON "schema_migrations" ("version")
+  [1m[36m (0.0ms)[0m  [1mSELECT version FROM "schema_migrations"[0m
+  [1m[35m (87.1ms)[0m  INSERT INTO "schema_migrations" (version) VALUES ('20130416135548')
