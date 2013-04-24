@@ -20,6 +20,15 @@
   display: block;
 }
 
+#notice {
+  color: #000 !important;
+  border: 2px solid red;
+  padding: 1em;
+  margin: 20px;
+  background-color: rgb(255,153,0);
+  font: bold smaller sans-serif;
+}
+
 body {
   font-family: "Tahoma", "Helvetica", sans-serif;
   font-size: 12px;
@@ -422,15 +431,6 @@ footer {
     text-align: center;
     vertical-align: middle;
   }
-}
-
-#notice {
-  color: #000 !important;
-  border: 2px solid red;
-  padding: 1em;
-  margin-bottom: 2em;
-  background-color: #f0f0f0;
-  font: bold smaller sans-serif;
 }
 
 #columns {
