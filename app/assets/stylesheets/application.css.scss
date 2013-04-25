@@ -20,9 +20,56 @@
   display: block;
 }
 
+#cart_box {
+  margin: 0;
+  border-right: 1px solid rgb(25,25,25);
+  vertical-align: top;
+  padding: 0px;
+  width: 150px;
+  text-align: left;
+  
+  .cart_header {
+    color: rgb(255,153,0);
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  form, div {
+    display: inline;
+  }
+  
+  input {
+    font-size: small;
+  }
+  
+  #cart {
+    font-size: smaller;
+    color: white;
+    
+    table {
+      border-top: 1px dotted rgb(239,74,21);
+      border-bottom: 1px dotted rgb(239,74,21);
+      margin-bottom: 10px;
+    }
+  }
+  
+  ul {
+    padding: 0;
+    
+    li {
+      list-style: none;
+      
+      a {
+        color: rgb(255,153,0);
+        font-size: small;
+      }
+    }
+  }
+}
+
 #notice {
   color: #000 !important;
-  border: 2px solid red;
+  border: 2px solid rgb(239,74,21);
   padding: 1em;
   margin: 20px;
   background-color: rgb(255,153,0);
@@ -101,6 +148,9 @@ nav {
   float: left;
   list-style-type: none;
   background: url("/assets/nav_this.png") top repeat-x rgb(255,153,0);
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
 }
 
 .navigation li.navigation_this p a.navigation_a_this {

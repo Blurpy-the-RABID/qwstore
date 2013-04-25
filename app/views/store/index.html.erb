@@ -1,49 +1,54 @@
 <% if notice %>
-<p id="notice">
-	<%= notice %>
-</p>
+	<p id="notice"><%= notice %></p>
 <% end %>
 
-<div class="main_section">
-	<table class="main_table">
-		<tbody>
-			<tr>
-				<td>
-				<div class="textbox_header">
-					So You'd Rather Buy One...
+<table class="main_table">
+	<tbody>
+		<tr>
+			<td class="sidebar_cell">
+			<div id="cart_box">
+				<div id="cart">
+					<% if @cart %>
+						<%= hidden_div_if(@cart.line_items.empty?, id: 'cart') do %>
+							<%= render @cart %>
+						<% end %>
+					<% end %>
 				</div>
-				<p>
-					Perhaps you think that making a nylon whip looks too complicated to do on your own.  Or perhaps you just
-					don't feel like exerting the effort to gather all of the materials and make one yourself.  Whatever the
-					reason, I've got an alternative solution for you!  I can make a nylon whip for you!  See below for a few
-					whips that I have made and ready for shipping.
-				</p>
-				<br />
-				</td>
+			</div></td>
 
-				<td class="index_img" ><img src="/assets/whip.png" /></td>
-			</tr>
-		</tbody>
-	</table>
+			<td class="howto_details">
+			<div class="textbox_header">
+				So You'd Rather Buy One...
+			</div>
+			<p>
+				Perhaps you think that making a nylon whip looks too complicated to do on your own.  Or perhaps you just
+				don't feel like exerting the effort to gather all of the materials and make one yourself.  Whatever the
+				reason, I've got an alternative solution for you!  I can make a nylon whip for you!  See below for a few
+				whips that I have made and ready for shipping.
+			</p>
+			<br />
+			</td>
+		</tr>
 
-	<table class="main_table">
-		<tbody>
-			<tr>
-				<td>
-					<div class="textbox_header">Ready To Ship:</div>
-					<% @products.each do |product| %>
+		<tr>
+			<td class="sidebar_cell"></td>
+
+			<td>
+				<div class="textbox_header">Ready To Ship:</div>
+				<% @products.each do |product| %>
 					<div class="entry">
 						<%= image_tag(product.image_url) %>
 						<h3><%= product.title %></h3>
-						<p><%= sanitize(product.description) %></p>
+						<p>
+							<%= sanitize(product.description) %>
+						</p>
 						<div class="price_line">
 							<span class="price"><%= number_to_currency(product.price) %></span>
-							<%= button_to 'Add to Cart', line_items_path(product_id: product) %>
+							<%= button_to 'Add to Cart', line_items_path(product_id: product), remote: true %>
 						</div>
 					</div>
-					<% end %>
-				</td>
-			</tr>
-		</tbody>
-	</table>
-</div>
+				<% end %>
+			</td>
+		</tr>
+	</tbody>
+</table>

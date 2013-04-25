@@ -19,13 +19,18 @@ pre {
 }
 
 a {
-  color: #000;
-  &:visited {
-    color: #666;
-  }
-  &:hover {
-    color: #fff;
-  }
+  text-decoration: none;
+  color: lightgray;
+  cursor: pointer;
+}
+
+a:hover {
+  text-decoration: none;
+  color: rgb(255,153,0);
+  cursor: pointer;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
 }
 
 div {
