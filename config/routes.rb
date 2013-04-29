@@ -1,4 +1,6 @@
 Qwstore::Application.routes.draw do
+  resources :pay_types
+
   resources :orders
 
   resources :line_items
