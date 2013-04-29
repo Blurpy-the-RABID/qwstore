@@ -1,16 +1,17 @@
 body {
   font-family: "Tahoma", "Helvetica", sans-serif;
   font-size: 12px;
+  background: black;
   color: white;
-  line-height: 18px;
+  display: block;
 }
-
+/*
 p, ol, ul, td {
-  font-family: "Tahoma", "Helvetica", sans-serif;
-  font-size: 12px;
-  color: white;
+  font-family: verdana, arial, helvetica, sans-serif;
+  font-size: 13px;
   line-height: 18px;
 }
+*/
 
 pre {
   background-color: #eee;
@@ -19,18 +20,14 @@ pre {
 }
 
 a {
-  text-decoration: none;
-  color: lightgray;
-  cursor: pointer;
-}
-
-a:hover {
-  text-decoration: none;
-  color: rgb(255,153,0);
-  cursor: pointer;
-  -webkit-transition: all 0.3s ease-in;
-  -moz-transition: all 0.3s ease-in;
-  -o-transition: all 0.3s ease-in;
+  color: #000;
+  &:visited {
+    color: #666;
+  }
+  &:hover {
+    color: #fff;
+    background-color: #000;
+  }
 }
 
 div {
@@ -69,5 +66,6 @@ div {
   ul li {
     font-size: 12px;
     list-style: square;
+    color: black;
   }
 }
