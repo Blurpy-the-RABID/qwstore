@@ -12,6 +12,11 @@
  *= require_tree .
  */
 
+.locale {
+  float: right;
+  margin: -0.25em 0.1em;
+}
+
 .store {
   font-family: "Tahoma", "Helvetica", sans-serif;
   font-size: 12px;
