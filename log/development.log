@@ -33735,3 +33735,1489 @@ Served asset /6ftBlueWhip.png - 304 Not Modified (2ms)
 
 Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-05-01 16:20:51 -0400
 Served asset /nav_this.png - 304 Not Modified (0ms)
+
+
+Started GET "/" for 127.0.0.1 at 2013-05-02 12:26:08 -0400
+Connecting to database specified by database.yml
+Processing by StoreController#index as HTML
+  [1m[36m (0.0ms)[0m  [1mbegin transaction[0m
+  [1m[35mSQL (52.9ms)[0m  INSERT INTO "carts" ("created_at", "updated_at") VALUES (?, ?)  [["created_at", Thu, 02 May 2013 16:26:09 UTC +00:00], ["updated_at", Thu, 02 May 2013 16:26:09 UTC +00:00]]
+  [1m[36m (240.5ms)[0m  [1mcommit transaction[0m
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 51
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (246.6ms)
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (499.5ms)
+Completed 200 OK in 1913ms (Views: 1544.3ms | ActiveRecord: 308.4ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:11 -0400
+Served asset /application.css - 304 Not Modified (55ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:11 -0400
+Served asset /carts.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:11 -0400
+Served asset /admin.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:11 -0400
+Served asset /line_items.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:11 -0400
+Served asset /pay_types.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:11 -0400
+Served asset /orders.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:11 -0400
+Served asset /products.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:11 -0400
+Served asset /scaffolds.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:11 -0400
+Served asset /sessions.css - 304 Not Modified (11ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:11 -0400
+Served asset /store.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:11 -0400
+Served asset /users.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:11 -0400
+Served asset /jquery.js - 304 Not Modified (28ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:11 -0400
+Served asset /jquery-ui.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:12 -0400
+Served asset /admin.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:12 -0400
+Served asset /carts.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:12 -0400
+Served asset /line_items.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:12 -0400
+Served asset /orders.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:12 -0400
+Served asset /pay_types.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:12 -0400
+Served asset /products.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:12 -0400
+Served asset /sessions.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:12 -0400
+Served asset /store.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:12 -0400
+Served asset /users.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:12 -0400
+Served asset /application.js - 304 Not Modified (51ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-05-02 12:26:12 -0400
+Served asset /header.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-05-02 12:26:12 -0400
+Served asset /logo.png - 304 Not Modified (22ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-05-02 12:26:13 -0400
+Served asset /nav_bar.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-05-02 12:26:13 -0400
+Served asset /nav_this.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-05-02 12:26:13 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-05-02 12:26:13 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (23ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-05-02 12:26:13 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-05-02 12:26:13 -0400
+Served asset /footer.png - 304 Not Modified (4ms)
+
+
+Started GET "/es" for 127.0.0.1 at 2013-05-02 12:26:16 -0400
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 51]]
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 51[0m
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (4.0ms)
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (15.8ms)
+Completed 200 OK in 91ms (Views: 87.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:16 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:16 -0400
+Served asset /admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:16 -0400
+Served asset /carts.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:16 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:16 -0400
+Served asset /orders.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:16 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:16 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:16 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:16 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:16 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-02 12:26:16 -0400
+Served asset /users.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:16 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:17 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:17 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:17 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:17 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:17 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:17 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:17 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:17 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:17 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:17 -0400
+Served asset /store.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:17 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-02 12:26:17 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-05-02 12:26:18 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-05-02 12:26:18 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-05-02 12:26:18 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (0ms)
+
+
+Started GET "/es" for 127.0.0.1 at 2013-05-02 12:29:04 -0400
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 51]]
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 51
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (4.0ms)
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (39.9ms)
+Completed 200 OK in 185ms (Views: 113.0ms | ActiveRecord: 6.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-02 12:29:04 -0400
+Served asset /admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-05-02 12:29:04 -0400
+Served asset /carts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-02 12:29:04 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-05-02 12:29:04 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-05-02 12:29:04 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-05-02 12:29:04 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-05-02 12:29:04 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-02 12:29:04 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-02 12:29:04 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-05-02 12:29:04 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-02 12:29:04 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-02 12:29:04 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-05-02 12:29:05 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-02 12:29:05 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-02 12:29:05 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-05-02 12:29:05 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-05-02 12:29:05 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-05-02 12:29:05 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-05-02 12:29:05 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-05-02 12:29:05 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-02 12:29:05 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-05-02 12:29:05 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-02 12:29:05 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-02 12:29:05 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-05-02 12:29:06 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-05-02 12:29:06 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-05-02 12:29:06 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-05-02 12:29:15 -0400
+Served asset /nav_this.png - 304 Not Modified (0ms)
+
+
+Started GET "/es" for 127.0.0.1 at 2013-05-02 12:30:48 -0400
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 51]]
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 51[0m
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (4.0ms)
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (62.0ms)
+Completed 200 OK in 162ms (Views: 111.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-02 12:30:48 -0400
+Served asset /admin.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-02 12:30:48 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-05-02 12:30:48 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-05-02 12:30:48 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-05-02 12:30:48 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-05-02 12:30:48 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-05-02 12:30:48 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-02 12:30:48 -0400
+Served asset /scaffolds.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-02 12:30:48 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-05-02 12:30:48 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-02 12:30:48 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-02 12:30:48 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-05-02 12:30:49 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-02 12:30:49 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-02 12:30:49 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-05-02 12:30:49 -0400
+Served asset /carts.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-05-02 12:30:49 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-05-02 12:30:49 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-05-02 12:30:49 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-05-02 12:30:49 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-02 12:30:49 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-05-02 12:30:49 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-02 12:30:49 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-02 12:30:49 -0400
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-05-02 12:30:50 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-05-02 12:30:50 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-05-02 12:30:50 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/es" for 127.0.0.1 at 2013-05-02 12:34:36 -0400
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 51]]
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 51
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (2.0ms)
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (14.0ms)
+Completed 200 OK in 87ms (Views: 83.4ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:36 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:36 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:36 -0400
+Served asset /carts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:36 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:36 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:36 -0400
+Served asset /pay_types.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:36 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:36 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:36 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:37 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-05-02 12:34:38 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-05-02 12:34:38 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (22ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-05-02 12:34:38 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (0ms)
+
+
+Started GET "/en" for 127.0.0.1 at 2013-05-02 12:34:40 -0400
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"en"}
+  [1m[35mCart Load (1.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 51]]
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 51[0m
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (3.0ms)
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (15.0ms)
+Completed 200 OK in 87ms (Views: 85.1ms | ActiveRecord: 1.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:40 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:40 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:40 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:40 -0400
+Served asset /line_items.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:40 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:40 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:40 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-02 12:34:41 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-05-02 12:34:42 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-05-02 12:34:42 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (22ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-05-02 12:34:42 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/es" for 127.0.0.1 at 2013-05-02 12:35:28 -0400
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[36mCart Load (1.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 51]]
+  [1m[35m (1.0ms)[0m  SELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 51
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (4.0ms)
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (38.0ms)
+Completed 200 OK in 163ms (Views: 112.1ms | ActiveRecord: 7.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-02 12:35:28 -0400
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-05-02 12:35:28 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-05-02 12:35:28 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-02 12:35:28 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-05-02 12:35:28 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-05-02 12:35:28 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /carts.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /store.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-02 12:35:29 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-05-02 12:35:30 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-05-02 12:35:30 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-05-02 12:35:30 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/es" for 127.0.0.1 at 2013-05-02 12:37:25 -0400
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 51]]
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 51[0m
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (4.0ms)
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (63.0ms)
+Completed 200 OK in 165ms (Views: 115.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:25 -0400
+Served asset /application.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:25 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:25 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:25 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:25 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:26 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:27 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-05-02 12:37:27 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-05-02 12:37:27 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-05-02 12:37:27 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/es" for 127.0.0.1 at 2013-05-02 12:37:43 -0400
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 51]]
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 51
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (3.0ms)
+  [1m[36mProduct Load (0.0ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (16.0ms)
+Completed 200 OK in 93ms (Views: 91.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:43 -0400
+Served asset /application.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:43 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:43 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:43 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:43 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:44 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-02 12:37:45 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-05-02 12:37:45 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-05-02 12:37:45 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-05-02 12:37:45 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/es" for 127.0.0.1 at 2013-05-02 12:40:53 -0400
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[35mCart Load (1.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 51]]
+  [1m[36m (0.0ms)[0m  [1mSELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 51[0m
+  Rendered collection (0.0ms)
+  Rendered carts/_cart.html.erb (5.0ms)
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (41.0ms)
+Completed 200 OK in 190ms (Views: 116.1ms | ActiveRecord: 3.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-02 12:40:53 -0400
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-02 12:40:53 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-05-02 12:40:53 -0400
+Served asset /carts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-05-02 12:40:53 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-05-02 12:40:53 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-05-02 12:40:53 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-05-02 12:40:53 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-02 12:40:53 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-02 12:40:53 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-05-02 12:40:53 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-02 12:40:53 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-02 12:40:53 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-05-02 12:40:54 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-02 12:40:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-02 12:40:54 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-05-02 12:40:54 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-05-02 12:40:54 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-05-02 12:40:54 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-05-02 12:40:54 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-05-02 12:40:54 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-02 12:40:54 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-05-02 12:40:54 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-02 12:40:54 -0400
+Served asset /users.js - 304 Not Modified (40ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-02 12:40:54 -0400
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-05-02 12:40:55 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-05-02 12:40:55 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-05-02 12:40:55 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (0ms)
+
+
+Started POST "/es/line_items?product_id=2" for 127.0.0.1 at 2013-05-02 12:40:55 -0400
+Processing by LineItemsController#create as JS
+  Parameters: {"authenticity_token"=>"63BK+B2+xHb5HMI1bg2+zGbPYdPOho8GuykXTgWO6Bo=", "product_id"=>"2", "locale"=>"es"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 51]]
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = ? LIMIT 1  [["id", "2"]]
+  [1m[36mLineItem Load (0.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 51 AND "line_items"."product_id" = 2 LIMIT 1[0m
+  [1m[35m (0.0ms)[0m  begin transaction
+  [1m[36mSQL (2.0ms)[0m  [1mINSERT INTO "line_items" ("cart_id", "created_at", "order_id", "product_id", "quantity", "updated_at") VALUES (?, ?, ?, ?, ?, ?)[0m  [["cart_id", 51], ["created_at", Thu, 02 May 2013 16:40:56 UTC +00:00], ["order_id", nil], ["product_id", 2], ["quantity", 1], ["updated_at", Thu, 02 May 2013 16:40:56 UTC +00:00]]
+  [1m[35m (122.3ms)[0m  commit transaction
+  [1m[36mLineItem Load (1.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 51[0m
+  Rendered line_items/_line_item.html.erb (1.0ms)
+  Rendered carts/_cart.html.erb (14.0ms)
+  Rendered line_items/create.js.erb (18.0ms)
+Completed 200 OK in 232ms (Views: 28.0ms | ActiveRecord: 125.3ms)
+
+
+Started GET "/es" for 127.0.0.1 at 2013-05-02 12:42:11 -0400
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[35mCart Load (0.0ms)[0m  SELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1  [["id", 51]]
+  [1m[36m (1.0ms)[0m  [1mSELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 51[0m
+  [1m[35mLineItem Load (1.0ms)[0m  SELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 51
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1[0m
+  Rendered line_items/_line_item.html.erb (3.0ms)
+  Rendered carts/_cart.html.erb (11.0ms)
+  [1m[35mProduct Load (1.0ms)[0m  SELECT "products".* FROM "products" ORDER BY title
+  Rendered store/index.html.erb within layouts/application (22.7ms)
+Completed 200 OK in 96ms (Views: 89.8ms | ActiveRecord: 4.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-02 12:42:11 -0400
+Served asset /application.css - 304 Not Modified (43ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-05-02 12:42:11 -0400
+Served asset /line_items.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-05-02 12:42:11 -0400
+Served asset /orders.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-05-02 12:42:11 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-02 12:42:11 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-05-02 12:42:11 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /sessions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /admin.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /carts.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-02 12:42:12 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-05-02 12:42:13 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-05-02 12:42:13 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-05-02 12:42:13 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/es" for 127.0.0.1 at 2013-05-02 12:44:06 -0400
+Processing by StoreController#index as HTML
+  Parameters: {"locale"=>"es"}
+  [1m[36mCart Load (0.0ms)[0m  [1mSELECT "carts".* FROM "carts" WHERE "carts"."id" = ? LIMIT 1[0m  [["id", 51]]
+  [1m[35m (0.0ms)[0m  SELECT COUNT(*) FROM "line_items" WHERE "line_items"."cart_id" = 51
+  [1m[36mLineItem Load (1.0ms)[0m  [1mSELECT "line_items".* FROM "line_items" WHERE "line_items"."cart_id" = 51[0m
+  [1m[35mProduct Load (0.0ms)[0m  SELECT "products".* FROM "products" WHERE "products"."id" = 2 LIMIT 1
+  Rendered line_items/_line_item.html.erb (16.0ms)
+  Rendered carts/_cart.html.erb (35.0ms)
+  [1m[36mProduct Load (1.0ms)[0m  [1mSELECT "products".* FROM "products" ORDER BY title[0m
+  Rendered store/index.html.erb within layouts/application (58.0ms)
+Completed 200 OK in 203ms (Views: 132.1ms | ActiveRecord: 2.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /orders.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /store.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /carts.js - 304 Not Modified (23ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-05-02 12:44:07 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-05-02 12:44:08 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-05-02 12:44:08 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-05-02 12:44:08 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-05-02 12:44:08 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-05-02 12:44:08 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-05-02 12:44:08 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/3ftWhiteWhip.png" for 127.0.0.1 at 2013-05-02 12:44:08 -0400
+Served asset /3ftWhiteWhip.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/4ftRedWhip.png" for 127.0.0.1 at 2013-05-02 12:44:08 -0400
+Served asset /4ftRedWhip.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/6ftBlueWhip.png" for 127.0.0.1 at 2013-05-02 12:44:08 -0400
+Served asset /6ftBlueWhip.png - 304 Not Modified (1ms)

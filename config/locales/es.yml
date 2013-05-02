@@ -1,0 +1,32 @@
+# Sample localization file for English. Add more files in this directory for other locales.
+# See https://github.com/svenfuchs/rails-i18n/tree/master/rails%2Flocale for starting points.
+
+es:
+  
+  layouts:
+    application:
+      home: "Inicio"
+      howtomake: "Cómo Hacer..."
+      whipcare: "Cuidado de Látigo"
+      store: "Comprar Uno!"
+      contact: "Contacto"
+
+  store:
+    index:
+      header_title: "Así que más bien comprar uno..."
+      add_html: "A&ntilde;adir al Carrito"
+
+  carts:
+    cart:
+      title: "Carrito de la Compra"
+      empty: "Vaciar Carrito"
+      checkout: "Comprar"
+
+  number:
+    currency:
+      format:
+        unit: "$US"
+        precision: 2
+        separator: ","
+        delimiter: "."
+        format: "%n&nbsp;%u"

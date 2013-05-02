@@ -1,4 +1,4 @@
-<div class="cart_header">Your Shopping Cart</div>
+<div class="cart_header"><%= t('.title') %></div>
 <table>
 	<%= render(cart.line_items) %>
 	
@@ -9,6 +9,6 @@
 </table>
 
 <% unless current_page?(:controller => 'orders', :action => 'new' )%>
-  <%= button_to "Checkout", new_order_path, method: :get %>
+  <%= button_to t('.checkout'), new_order_path, method: :get %>
 <% end %>
-<%= button_to 'Empty Cart', cart, method: :delete, data: { confirm: 'Are you sure?' } %>
+<%= button_to t('.empty'), cart, method: :delete, data: { confirm: 'Are you sure?' } %>
