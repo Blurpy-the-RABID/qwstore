@@ -1,9 +1,27 @@
 Qwstore::Application.routes.draw do
-  get "static/index" => 'static#index'
+  get "how_to_make" => 'how_to_make#materials'
 
-  get "static/whipcare"
+  get "materials" => 'how_to_make#materials'
 
-  get "static/contact"
+  get "coloring" => 'how_to_make#coloring'
+
+  get "cutting" => 'how_to_make#cutting'
+
+  get "braiding1" => 'how_to_make#braiding1'
+
+  get "braiding2" => 'how_to_make#braiding2'
+
+  get "braiding3" => 'how_to_make#braiding3'
+
+  get "handles" => 'how_to_make#handles'
+
+  get "popper" => 'how_to_make#popper'
+
+  get "index" => 'static#index'
+
+  get "whipcare" => 'static#whipcare' 
+
+  get "contact" => 'static#contact'
 
   get 'admin' => 'admin#index'
   controller :sessions do
