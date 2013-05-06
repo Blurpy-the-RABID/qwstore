@@ -1,4 +1,10 @@
 Qwstore::Application.routes.draw do
+  get "static/index" => 'static#index'
+
+  get "static/whipcare"
+
+  get "static/contact"
+
   get 'admin' => 'admin#index'
   controller :sessions do
     get  'login' => :new

@@ -24,7 +24,7 @@
     }
     
     dt {
-      color: #244;
+      color: rgb(255,153,0);
       font-weight: bold;
       font-size: larger;
     }
@@ -41,10 +41,10 @@
   }
   
   .list_line_even {
-    background: #e0f8f8;
+    background: rgb(70,70,70);
   }
   
   .list_line_odd {
-    background: #f8b0f8;
+    background: rgb(90,90,90);
   }
 }
