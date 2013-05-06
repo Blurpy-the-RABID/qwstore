@@ -18,21 +18,52 @@
 			</header>
 
 			<nav>
+				<% this_url = request.fullpath %>
+				<% this_controller = controller.controller_name %>
 				<ul class="navigation">
+					<% if this_url == '/index.html' %>
+					<li class="navigation_this" >						
+						<p><a href="index.html" class="navigation_a_this" ><%= t('.home') %></a></p>
+					<% else %>
 					<li>
 						<p><a href="index.html" ><%= t('.home') %></a></p>
+					<% end %>
 					</li>
+					
+					<% if this_controller == 'how_to_make' %>
+					<li class="navigation_this">
+						<p><a href="how_to_make.html" class="navigation_a_this"><%= t('.howtomake') %></a></p>
+					<% else %>
 					<li>
 						<p><a href="how_to_make.html" ><%= t('.howtomake') %></a></p>
+					<% end %>
 					</li>
+					
+					<% if this_url == '/whipcare.html' %>
+					<li class="navigation_this">
+						<p><a href="whipcare.html" class="navigation_a_this"><%= t('.whipcare') %></a></p>
+					<% else %>
 					<li>
 						<p><a href="whipcare.html" ><%= t('.whipcare') %></a></p>
+					<% end %>
 					</li>
+					
+					<% if this_controller == 'store' %>
 					<li class="navigation_this" >
 						<p><a href="store.html" class="navigation_a_this" ><%= t('.store') %></a></p>
+					<% else %>
+					<li>
+						<p><a href="store.html"><%= t('.store') %></a></p>
+					<% end %>
 					</li>
+					
+					<% if this_url == '/contact.html' %>
+					<li class="navigation_this">
+						<p><a href="contact.html" class="navigation_a_this"><%= t('.contact') %></a></p>
+					<% else %>
 					<li>
 						<p><a href="contact.html" ><%= t('.contact') %></a></p>
+					<% end %>
 					</li>
 				</ul>
 			</nav>
