@@ -99544,3 +99544,5342 @@ Served asset /application.js - 304 Not Modified (6ms)
 
 Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:08:57 -0400
 Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:14:19 -0400
+Connecting to database specified by database.yml
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (4.0ms)
+Completed 200 OK in 173ms (Views: 173.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:14:20 -0400
+Served asset /how_to_make.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:14:20 -0400
+Served asset /admin.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:14:20 -0400
+Served asset /carts.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:14:20 -0400
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:14:20 -0400
+Served asset /line_items.css - 304 Not Modified (26ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:14:20 -0400
+Served asset /orders.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:14:20 -0400
+Served asset /pay_types.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:14:20 -0400
+Served asset /products.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:14:20 -0400
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /sessions.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /static.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /store.css - 304 Not Modified (27ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /users.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /jquery.js - 304 Not Modified (15ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /jquery-ui.js - 304 Not Modified (17ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (25ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /admin.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /carts.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /how_to_make.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /line_items.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /orders.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /pay_types.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /products.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /sessions.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:21 -0400
+Served asset /static.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:22 -0400
+Served asset /store.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:22 -0400
+Served asset /users.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:14:22 -0400
+Served asset /application.js - 304 Not Modified (57ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:14:22 -0400
+Served asset /header.png - 304 Not Modified (9ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:14:22 -0400
+Served asset /logo.png - 304 Not Modified (8ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:14:22 -0400
+Served asset /nav_bar.png - 304 Not Modified (25ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:14:22 -0400
+Served asset /nav_this.png - 200 OK (3ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:14:22 -0400
+Served asset /footer.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:14:22 -0400
+Served asset /whip.png - 304 Not Modified (4ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:16:15 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 76ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:16:15 -0400
+Served asset /admin.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:16:15 -0400
+Served asset /application.css - 304 Not Modified (7ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:16:15 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:16:15 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:16:15 -0400
+Served asset /how_to_make.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:16:15 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:16:15 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:16:15 -0400
+Served asset /products.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:16:15 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:16:15 -0400
+Served asset /sessions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:16:15 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:16:16 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:16:17 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:19:05 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (1.0ms)
+Compiled application.css  (192ms)  (pid 6124)
+Completed 200 OK in 289ms (Views: 289.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:19:06 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:19:06 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:19:06 -0400
+Served asset /application.css - 200 OK (38ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:19:06 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:19:06 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:19:06 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:19:06 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:19:06 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:19:06 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:19:06 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:19:06 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:19:06 -0400
+Served asset /store.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:19:06 -0400
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /store.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:19:07 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:19:08 -0400
+Served asset /logo.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:19:08 -0400
+Served asset /header.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:19:08 -0400
+Served asset /footer.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:19:08 -0400
+Served asset /nav_bar.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:19:08 -0400
+Served asset /nav_this.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:19:08 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:21:03 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (1.0ms)
+Compiled application.css  (181ms)  (pid 6124)
+Completed 200 OK in 306ms (Views: 305.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:21:03 -0400
+Served asset /application.css - 200 OK (32ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:21:03 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:21:03 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:21:03 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /sessions.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /users.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:04 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:05 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:05 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:05 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:05 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:05 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:05 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:21:05 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:21:05 -0400
+Served asset /header.png - 304 Not Modified (8ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:21:05 -0400
+Served asset /logo.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:21:05 -0400
+Served asset /nav_bar.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:21:05 -0400
+Served asset /nav_this.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:21:05 -0400
+Served asset /footer.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:21:05 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:22:36 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (2.0ms)
+Compiled application.css  (159ms)  (pid 6124)
+Completed 200 OK in 307ms (Views: 307.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /application.css - 200 OK (66ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /how_to_make.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:37 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:38 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:38 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:38 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:38 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:38 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:38 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:38 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:38 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:38 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:38 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:38 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:38 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:22:38 -0400
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:22:39 -0400
+Served asset /logo.png - 304 Not Modified (10ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:22:39 -0400
+Served asset /header.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:22:39 -0400
+Served asset /nav_bar.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:22:39 -0400
+Served asset /nav_this.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:22:39 -0400
+Served asset /footer.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:22:39 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:23:45 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (1.0ms)
+Compiled application.css  (161ms)  (pid 6124)
+Completed 200 OK in 309ms (Views: 309.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /application.css - 200 OK (57ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /sessions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:46 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:23:47 -0400
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:23:48 -0400
+Served asset /header.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:23:48 -0400
+Served asset /logo.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:23:48 -0400
+Served asset /nav_bar.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:23:48 -0400
+Served asset /nav_this.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:23:48 -0400
+Served asset /footer.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:23:48 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:24:41 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (0.0ms)
+Compiled application.css  (160ms)  (pid 6124)
+Completed 200 OK in 309ms (Views: 308.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:24:41 -0400
+Served asset /application.css - 200 OK (101ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:42 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:43 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:43 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:43 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:43 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:43 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:43 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:43 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:43 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:43 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:24:43 -0400
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:24:43 -0400
+Served asset /header.png - 304 Not Modified (8ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:24:43 -0400
+Served asset /logo.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:24:43 -0400
+Served asset /nav_this.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:24:44 -0400
+Served asset /nav_bar.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:24:44 -0400
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:24:44 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:25:24 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (1.0ms)
+Compiled application.css  (181ms)  (pid 6124)
+Completed 200 OK in 307ms (Views: 306.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /application.css - 200 OK (55ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /carts.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /scaffolds.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /store.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:25 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /admin.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:25:26 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:25:27 -0400
+Served asset /logo.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:25:27 -0400
+Served asset /header.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:25:27 -0400
+Served asset /nav_bar.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:25:27 -0400
+Served asset /nav_this.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:25:27 -0400
+Served asset /footer.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:25:27 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:26:25 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (1.0ms)
+Compiled application.css  (186ms)  (pid 6124)
+Completed 200 OK in 310ms (Views: 310.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:26:25 -0400
+Served asset /application.css - 200 OK (74ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:26:25 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /carts.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /how_to_make.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /line_items.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:26 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /sessions.js - 304 Not Modified (22ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /header.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /logo.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /nav_bar.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /nav_this.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /footer.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:26:27 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:27:13 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (1.0ms)
+Compiled application.css  (185ms)  (pid 6124)
+Completed 200 OK in 283ms (Views: 283.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:14 -0400
+Served asset /application.css - 200 OK (33ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:14 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:14 -0400
+Served asset /carts.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:14 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:14 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:14 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:14 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:14 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /how_to_make.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:15 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:16 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:16 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:27:16 -0400
+Served asset /header.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:27:16 -0400
+Served asset /logo.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:27:16 -0400
+Served asset /nav_bar.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:27:16 -0400
+Served asset /nav_this.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:27:16 -0400
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:27:16 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:27:45 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (1.0ms)
+Compiled application.css  (161ms)  (pid 6124)
+Completed 200 OK in 289ms (Views: 288.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:45 -0400
+Served asset /application.css - 200 OK (70ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:45 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:45 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:45 -0400
+Served asset /carts.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:45 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:45 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:45 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:46 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:47 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:47 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:27:47 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:27:47 -0400
+Served asset /header.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:27:47 -0400
+Served asset /logo.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:27:47 -0400
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:27:47 -0400
+Served asset /nav_bar.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:27:47 -0400
+Served asset /nav_this.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:27:47 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:28:47 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (1.0ms)
+Compiled application.css  (163ms)  (pid 6124)
+Completed 200 OK in 294ms (Views: 292.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:28:47 -0400
+Served asset /application.css - 200 OK (57ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:28:47 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /carts.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /orders.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:48 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /header.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /logo.png - 304 Not Modified (6ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /nav_bar.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /nav_this.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /footer.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:28:49 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:29:15 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (0.0ms)
+Compiled application.css  (161ms)  (pid 6124)
+Completed 200 OK in 310ms (Views: 310.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:15 -0400
+Served asset /application.css - 200 OK (69ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /carts.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /pay_types.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:16 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:17 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:17 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:17 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:17 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:17 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:17 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:17 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:17 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:17 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:17 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:17 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:29:17 -0400
+Served asset /header.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:29:17 -0400
+Served asset /logo.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:29:18 -0400
+Served asset /nav_bar.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:29:18 -0400
+Served asset /nav_this.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:29:18 -0400
+Served asset /footer.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:29:18 -0400
+Served asset /whip.png - 304 Not Modified (2ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:29:53 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (0.0ms)
+Compiled application.css  (161ms)  (pid 6124)
+Completed 200 OK in 311ms (Views: 311.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:53 -0400
+Served asset /application.css - 200 OK (39ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:53 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:53 -0400
+Served asset /carts.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /products.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /store.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:54 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /application.js - 304 Not Modified (26ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /header.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /nav_bar.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /nav_this.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /footer.png - 304 Not Modified (22ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:29:55 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:31:15 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (0.0ms)
+Compiled application.css  (162ms)  (pid 6124)
+Completed 200 OK in 308ms (Views: 307.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:31:15 -0400
+Served asset /application.css - 200 OK (32ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:31:15 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /store.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:16 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /logo.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /header.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /nav_bar.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /nav_this.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /footer.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:31:17 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:37:29 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (1.0ms)
+Compiled application.css  (171ms)  (pid 6124)
+Completed 200 OK in 298ms (Views: 298.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:37:29 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:37:29 -0400
+Served asset /application.css - 200 OK (55ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:37:29 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:37:29 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:37:29 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:37:29 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:37:29 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:37:29 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /admin.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:30 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:31 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:37:31 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/logo.png" for 127.0.0.1 at 2013-06-05 13:37:31 -0400
+Served asset /logo.png - 304 Not Modified (11ms)
+
+
+Started GET "/assets/header.png" for 127.0.0.1 at 2013-06-05 13:37:31 -0400
+Served asset /header.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/nav_bar.png" for 127.0.0.1 at 2013-06-05 13:37:31 -0400
+Served asset /nav_bar.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/nav_this.png" for 127.0.0.1 at 2013-06-05 13:37:31 -0400
+Served asset /nav_this.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/footer.png" for 127.0.0.1 at 2013-06-05 13:37:31 -0400
+Served asset /footer.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:37:31 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/coloring.html" for 127.0.0.1 at 2013-06-05 13:38:49 -0400
+Processing by HowToMakeController#coloring as HTML
+  Rendered how_to_make/coloring.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 75ms (Views: 75.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:38:50 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:38:50 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:38:50 -0400
+Served asset /line_items.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:38:50 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:38:50 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:38:50 -0400
+Served asset /orders.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:38:50 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:38:50 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:38:50 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:38:50 -0400
+Served asset /sessions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:38:50 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:38:50 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:38:50 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:38:51 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:38:52 -0400
+Served asset /whip.png - 304 Not Modified (2ms)
+
+
+Started GET "/coloring.html" for 127.0.0.1 at 2013-06-05 13:39:56 -0400
+Processing by HowToMakeController#coloring as HTML
+  Rendered how_to_make/coloring.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 53ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:39:56 -0400
+Served asset /application.css - 304 Not Modified (20ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:39:56 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:39:56 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:39:56 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:39:56 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:39:56 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /products.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:57 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:58 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:58 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:58 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:58 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:39:58 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:39:58 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/cutting.html" for 127.0.0.1 at 2013-06-05 13:40:08 -0400
+Processing by HowToMakeController#cutting as HTML
+  Rendered how_to_make/cutting.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 52ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:40:08 -0400
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:40:08 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:40:08 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:40:08 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:40:08 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:40:08 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:40:08 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /static.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:09 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:10 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:10 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:40:10 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/cutrope1.png" for 127.0.0.1 at 2013-06-05 13:40:10 -0400
+Served asset /cutrope1.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/cutrope2.png" for 127.0.0.1 at 2013-06-05 13:40:10 -0400
+Served asset /cutrope2.png - 304 Not Modified (4ms)
+
+
+Started GET "/braiding1.html" for 127.0.0.1 at 2013-06-05 13:41:33 -0400
+Processing by HowToMakeController#braiding1 as HTML
+  Rendered how_to_make/braiding1.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 76ms (Views: 76.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:34 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:34 -0400
+Served asset /admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:34 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:34 -0400
+Served asset /line_items.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:34 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:34 -0400
+Served asset /orders.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:34 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:34 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:34 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:34 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:34 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:34 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:34 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /admin.js - 304 Not Modified (4ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:35 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/cutrope3.png" for 127.0.0.1 at 2013-06-05 13:41:36 -0400
+Served asset /cutrope3.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/braid_ab1.png" for 127.0.0.1 at 2013-06-05 13:41:36 -0400
+Served asset /braid_ab1.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/braid_ab2.png" for 127.0.0.1 at 2013-06-05 13:41:36 -0400
+Served asset /braid_ab2.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/braid_ab3.png" for 127.0.0.1 at 2013-06-05 13:41:36 -0400
+Served asset /braid_ab3.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/braid_ab4.png" for 127.0.0.1 at 2013-06-05 13:41:36 -0400
+Served asset /braid_ab4.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/braid_ab5.png" for 127.0.0.1 at 2013-06-05 13:41:36 -0400
+Served asset /braid_ab5.png - 304 Not Modified (7ms)
+
+
+Started GET "/assets/braid_ab6.png" for 127.0.0.1 at 2013-06-05 13:41:36 -0400
+Served asset /braid_ab6.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/braid_ab7.png" for 127.0.0.1 at 2013-06-05 13:41:36 -0400
+Served asset /braid_ab7.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/braid_ab8.png" for 127.0.0.1 at 2013-06-05 13:41:36 -0400
+Served asset /braid_ab8.png - 304 Not Modified (4ms)
+
+
+Started GET "/cutting.html" for 127.0.0.1 at 2013-06-05 13:41:42 -0400
+Processing by HowToMakeController#cutting as HTML
+  Rendered how_to_make/cutting.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 75ms (Views: 75.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:42 -0400
+Served asset /application.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /admin.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:43 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:44 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:44 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:44 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:44 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:44 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:44 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:44 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:44 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:44 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:44 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/cutrope1.png" for 127.0.0.1 at 2013-06-05 13:41:44 -0400
+Served asset /cutrope1.png - 304 Not Modified (3ms)
+
+
+Started GET "/assets/cutrope2.png" for 127.0.0.1 at 2013-06-05 13:41:44 -0400
+Served asset /cutrope2.png - 304 Not Modified (1ms)
+
+
+Started GET "/braiding1.html" for 127.0.0.1 at 2013-06-05 13:41:52 -0400
+Processing by HowToMakeController#braiding1 as HTML
+  Rendered how_to_make/braiding1.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 53ms (Views: 53.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:52 -0400
+Served asset /application.css - 304 Not Modified (23ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /line_items.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /products.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /static.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:53 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/cutrope3.png" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /cutrope3.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/braid_ab1.png" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /braid_ab1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/braid_ab2.png" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /braid_ab2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/braid_ab3.png" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /braid_ab3.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/braid_ab4.png" for 127.0.0.1 at 2013-06-05 13:41:54 -0400
+Served asset /braid_ab4.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/braid_ab5.png" for 127.0.0.1 at 2013-06-05 13:41:55 -0400
+Served asset /braid_ab5.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/braid_ab6.png" for 127.0.0.1 at 2013-06-05 13:41:55 -0400
+Served asset /braid_ab6.png - 304 Not Modified (21ms)
+
+
+Started GET "/assets/braid_ab7.png" for 127.0.0.1 at 2013-06-05 13:41:55 -0400
+Served asset /braid_ab7.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/braid_ab8.png" for 127.0.0.1 at 2013-06-05 13:41:55 -0400
+Served asset /braid_ab8.png - 304 Not Modified (0ms)
+
+
+Started GET "/braiding1.html" for 127.0.0.1 at 2013-06-05 13:42:35 -0400
+Processing by HowToMakeController#braiding1 as HTML
+  Rendered how_to_make/braiding1.html.erb within layouts/application (3.0ms)
+Completed 200 OK in 77ms (Views: 77.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:35 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:35 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:35 -0400
+Served asset /how_to_make.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:35 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:35 -0400
+Served asset /application.css - 304 Not Modified (5ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:35 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:35 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:35 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:35 -0400
+Served asset /scaffolds.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:35 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:35 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:35 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:36 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/braid_ab3.png" for 127.0.0.1 at 2013-06-05 13:42:37 -0400
+Served asset /braid_ab3.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/braid_ab2.png" for 127.0.0.1 at 2013-06-05 13:42:37 -0400
+Served asset /braid_ab2.png - 304 Not Modified (5ms)
+
+
+Started GET "/assets/braid_ab4.png" for 127.0.0.1 at 2013-06-05 13:42:37 -0400
+Served asset /braid_ab4.png - 304 Not Modified (25ms)
+
+
+Started GET "/assets/braid_ab5.png" for 127.0.0.1 at 2013-06-05 13:42:37 -0400
+Served asset /braid_ab5.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/braid_ab6.png" for 127.0.0.1 at 2013-06-05 13:42:37 -0400
+Served asset /braid_ab6.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/braid_ab7.png" for 127.0.0.1 at 2013-06-05 13:42:37 -0400
+Served asset /braid_ab7.png - 304 Not Modified (2ms)
+
+
+Started GET "/assets/braid_ab8.png" for 127.0.0.1 at 2013-06-05 13:42:37 -0400
+Served asset /braid_ab8.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cutrope3.png" for 127.0.0.1 at 2013-06-05 13:42:37 -0400
+Served asset /cutrope3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/braid_ab1.png" for 127.0.0.1 at 2013-06-05 13:42:37 -0400
+Served asset /braid_ab1.png - 304 Not Modified (1ms)
+
+
+Started GET "/braiding2.html" for 127.0.0.1 at 2013-06-05 13:42:39 -0400
+Processing by HowToMakeController#braiding2 as HTML
+  Rendered how_to_make/braiding2.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:39 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /admin.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /how_to_make.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /orders.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /sessions.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:40 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:41 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:41 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:41 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:41 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:41 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:41 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:41 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:41 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:42:41 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:42:41 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/braiding2.html" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Processing by HowToMakeController#braiding2 as HTML
+  Rendered how_to_make/braiding2.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 76ms (Views: 76.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /application.css - 304 Not Modified (18ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:21 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:22 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:22 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:22 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:22 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:22 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:22 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:22 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:22 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:22 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:22 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:22 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:43:22 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/braiding3.html" for 127.0.0.1 at 2013-06-05 13:43:24 -0400
+Processing by HowToMakeController#braiding3 as HTML
+  Rendered how_to_make/braiding3.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 73ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:25 -0400
+Served asset /admin.css - 304 Not Modified (28ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:25 -0400
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:25 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:25 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:25 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:25 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:25 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:25 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:25 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:25 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:25 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:25 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:25 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:26 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:43:27 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/braiding3.html" for 127.0.0.1 at 2013-06-05 13:43:56 -0400
+Processing by HowToMakeController#braiding3 as HTML
+  Rendered how_to_make/braiding3.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 78ms (Views: 77.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:56 -0400
+Served asset /carts.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:56 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:56 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:56 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:56 -0400
+Served asset /how_to_make.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:56 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:56 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:56 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:56 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:56 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:56 -0400
+Served asset /static.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:56 -0400
+Served asset /store.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:43:57 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:43:58 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/handles.html" for 127.0.0.1 at 2013-06-05 13:44:01 -0400
+Processing by HowToMakeController#handles as HTML
+  Rendered how_to_make/handles.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 71ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:01 -0400
+Served asset /application.css - 304 Not Modified (9ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:01 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:01 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:01 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:01 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /line_items.js - 304 Not Modified (20ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:02 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:03 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:03 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:03 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:03 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:03 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:44:03 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/handles.html" for 127.0.0.1 at 2013-06-05 13:44:32 -0400
+Processing by HowToMakeController#handles as HTML
+  Rendered how_to_make/handles.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 74ms (Views: 74.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:32 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:32 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:32 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:32 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:32 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:32 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:32 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:32 -0400
+Served asset /products.css - 304 Not Modified (22ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:32 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:32 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:32 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /pay_types.js - 304 Not Modified (3ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:33 -0400
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:44:34 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/popper.html" for 127.0.0.1 at 2013-06-05 13:44:39 -0400
+Processing by HowToMakeController#popper as HTML
+  Rendered how_to_make/popper.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 72ms (Views: 71.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:39 -0400
+Served asset /application.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:39 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:39 -0400
+Served asset /how_to_make.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:39 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:39 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:39 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:39 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:40 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:41 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:41 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:41 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:44:41 -0400
+Served asset /application.js - 304 Not Modified (27ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:44:41 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/popper.html" for 127.0.0.1 at 2013-06-05 13:45:27 -0400
+Processing by HowToMakeController#popper as HTML
+  Rendered how_to_make/popper.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 54ms (Views: 54.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:27 -0400
+Served asset /application.css - 304 Not Modified (19ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:27 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:27 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:27 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:27 -0400
+Served asset /how_to_make.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:27 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:27 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:27 -0400
+Served asset /products.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:27 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:27 -0400
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:27 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /how_to_make.js - 304 Not Modified (2ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:28 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:45:29 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/popper.html" for 127.0.0.1 at 2013-06-05 13:45:55 -0400
+Processing by HowToMakeController#popper as HTML
+  Rendered how_to_make/popper.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 74ms (Views: 73.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:55 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:55 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:55 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:55 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:55 -0400
+Served asset /line_items.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:55 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:55 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:55 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:55 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:55 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:45:56 -0400
+Served asset /application.js - 304 Not Modified (5ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:45:57 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/handles.html" for 127.0.0.1 at 2013-06-05 13:45:58 -0400
+Processing by HowToMakeController#handles as HTML
+  Rendered how_to_make/handles.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 70ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:59 -0400
+Served asset /application.css - 304 Not Modified (17ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:59 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:59 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:59 -0400
+Served asset /how_to_make.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:59 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:59 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:59 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:59 -0400
+Served asset /products.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:59 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:59 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:59 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:45:59 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /line_items.js - 304 Not Modified (21ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:00 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:46:01 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/braiding3.html" for 127.0.0.1 at 2013-06-05 13:46:02 -0400
+Processing by HowToMakeController#braiding3 as HTML
+  Rendered how_to_make/braiding3.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 51ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:02 -0400
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:02 -0400
+Served asset /admin.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:02 -0400
+Served asset /carts.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:02 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:02 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:02 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /static.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /products.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:03 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:04 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:04 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:04 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:04 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:46:04 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/braiding2.html" for 127.0.0.1 at 2013-06-05 13:46:07 -0400
+Processing by HowToMakeController#braiding2 as HTML
+  Rendered how_to_make/braiding2.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 51ms (Views: 51.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:07 -0400
+Served asset /application.css - 304 Not Modified (12ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:07 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:07 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:07 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:07 -0400
+Served asset /how_to_make.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:08 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:09 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:09 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:09 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:09 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:09 -0400
+Served asset /application.js - 304 Not Modified (7ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:46:09 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/braiding1.html" for 127.0.0.1 at 2013-06-05 13:46:11 -0400
+Processing by HowToMakeController#braiding1 as HTML
+  Rendered how_to_make/braiding1.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 69ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /application.css - 304 Not Modified (16ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /orders.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /sessions.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /static.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /store.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:12 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:13 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/braid_ab6.png" for 127.0.0.1 at 2013-06-05 13:46:14 -0400
+Served asset /braid_ab6.png - 304 Not Modified (30ms)
+
+
+Started GET "/assets/braid_ab7.png" for 127.0.0.1 at 2013-06-05 13:46:14 -0400
+Served asset /braid_ab7.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/braid_ab8.png" for 127.0.0.1 at 2013-06-05 13:46:14 -0400
+Served asset /braid_ab8.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cutrope3.png" for 127.0.0.1 at 2013-06-05 13:46:14 -0400
+Served asset /cutrope3.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/braid_ab1.png" for 127.0.0.1 at 2013-06-05 13:46:14 -0400
+Served asset /braid_ab1.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/braid_ab2.png" for 127.0.0.1 at 2013-06-05 13:46:14 -0400
+Served asset /braid_ab2.png - 304 Not Modified (0ms)
+
+
+Started GET "/assets/braid_ab3.png" for 127.0.0.1 at 2013-06-05 13:46:14 -0400
+Served asset /braid_ab3.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/braid_ab4.png" for 127.0.0.1 at 2013-06-05 13:46:14 -0400
+Served asset /braid_ab4.png - 304 Not Modified (4ms)
+
+
+Started GET "/assets/braid_ab5.png" for 127.0.0.1 at 2013-06-05 13:46:14 -0400
+Served asset /braid_ab5.png - 304 Not Modified (1ms)
+
+
+Started GET "/cutting.html" for 127.0.0.1 at 2013-06-05 13:46:18 -0400
+Processing by HowToMakeController#cutting as HTML
+  Rendered how_to_make/cutting.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 78ms (Views: 78.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:19 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:19 -0400
+Served asset /admin.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:19 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:19 -0400
+Served asset /how_to_make.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:19 -0400
+Served asset /line_items.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:19 -0400
+Served asset /orders.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:19 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:19 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:19 -0400
+Served asset /scaffolds.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:19 -0400
+Served asset /sessions.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:19 -0400
+Served asset /static.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:19 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:19 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /jquery.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /jquery-ui.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:20 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/cutrope1.png" for 127.0.0.1 at 2013-06-05 13:46:21 -0400
+Served asset /cutrope1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cutrope2.png" for 127.0.0.1 at 2013-06-05 13:46:21 -0400
+Served asset /cutrope2.png - 304 Not Modified (1ms)
+
+
+Started GET "/coloring.html" for 127.0.0.1 at 2013-06-05 13:46:23 -0400
+Processing by HowToMakeController#coloring as HTML
+  Rendered how_to_make/coloring.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 70ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:23 -0400
+Served asset /admin.css - 304 Not Modified (8ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /application.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /orders.css - 304 Not Modified (21ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /pay_types.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /products.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /scaffolds.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /sessions.css - 304 Not Modified (3ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /users.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:24 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:25 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:25 -0400
+Served asset /orders.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:25 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:25 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:25 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:25 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:25 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:25 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:25 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:46:25 -0400
+Served asset /whip.png - 304 Not Modified (1ms)
+
+
+Started GET "/materials.html" for 127.0.0.1 at 2013-06-05 13:46:27 -0400
+Processing by HowToMakeController#materials as HTML
+  Rendered how_to_make/materials.html.erb within layouts/application (0.0ms)
+Completed 200 OK in 69ms (Views: 69.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:27 -0400
+Served asset /application.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:27 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:27 -0400
+Served asset /carts.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:27 -0400
+Served asset /how_to_make.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:27 -0400
+Served asset /line_items.css - 304 Not Modified (2ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:27 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /pay_types.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /products.css - 304 Not Modified (6ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /admin.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /carts.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /how_to_make.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /line_items.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:28 -0400
+Served asset /pay_types.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:29 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:29 -0400
+Served asset /sessions.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:29 -0400
+Served asset /static.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:29 -0400
+Served asset /store.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:29 -0400
+Served asset /users.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:29 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/whip.png" for 127.0.0.1 at 2013-06-05 13:46:29 -0400
+Served asset /whip.png - 304 Not Modified (0ms)
+
+
+Started GET "/cutting.html" for 127.0.0.1 at 2013-06-05 13:46:32 -0400
+Processing by HowToMakeController#cutting as HTML
+  Rendered how_to_make/cutting.html.erb within layouts/application (1.0ms)
+Completed 200 OK in 71ms (Views: 70.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/assets/application.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:32 -0400
+Served asset /application.css - 304 Not Modified (41ms)
+
+
+Started GET "/assets/admin.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /admin.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /carts.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /how_to_make.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/line_items.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /line_items.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /orders.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /pay_types.css - 304 Not Modified (4ms)
+
+
+Started GET "/assets/products.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /products.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/scaffolds.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /scaffolds.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/sessions.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /sessions.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /static.css - 304 Not Modified (0ms)
+
+
+Started GET "/assets/store.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /store.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.css?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /users.css - 304 Not Modified (1ms)
+
+
+Started GET "/assets/jquery.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /jquery.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery-ui.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /jquery-ui.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/jquery_ujs.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /jquery_ujs.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/admin.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /admin.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/carts.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:33 -0400
+Served asset /carts.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/how_to_make.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:34 -0400
+Served asset /how_to_make.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/line_items.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:34 -0400
+Served asset /line_items.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/orders.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:34 -0400
+Served asset /orders.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/pay_types.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:34 -0400
+Served asset /pay_types.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/products.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:34 -0400
+Served asset /products.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/sessions.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:34 -0400
+Served asset /sessions.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/static.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:34 -0400
+Served asset /static.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/store.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:34 -0400
+Served asset /store.js - 304 Not Modified (1ms)
+
+
+Started GET "/assets/users.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:34 -0400
+Served asset /users.js - 304 Not Modified (0ms)
+
+
+Started GET "/assets/application.js?body=1" for 127.0.0.1 at 2013-06-05 13:46:34 -0400
+Served asset /application.js - 304 Not Modified (6ms)
+
+
+Started GET "/assets/cutrope1.png" for 127.0.0.1 at 2013-06-05 13:46:34 -0400
+Served asset /cutrope1.png - 304 Not Modified (1ms)
+
+
+Started GET "/assets/cutrope2.png" for 127.0.0.1 at 2013-06-05 13:46:34 -0400
+Served asset /cutrope2.png - 304 Not Modified (0ms)
