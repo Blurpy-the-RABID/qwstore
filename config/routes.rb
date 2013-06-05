@@ -12,6 +12,10 @@ Qwstore::Application.routes.draw do
   get "braiding2" => 'how_to_make#braiding2'
 
   get "braiding3" => 'how_to_make#braiding3'
+  
+  get "braiding4" => 'how_to_make#braiding4'
+  
+  get "braiding5" => 'how_to_make#braiding5'
 
   get "handles" => 'how_to_make#handles'
 

@@ -22,6 +22,12 @@ class HowToMakeController < ApplicationController
   def braiding3
   end
 
+  def braiding4
+  end
+  
+  def braiding5
+  end
+  
   def handles
   end
 
