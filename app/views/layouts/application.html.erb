@@ -74,8 +74,8 @@
 					<table class="main_table">
 						<tbody>
 							<tr>
+								<% if session[:user_id] %>
 								<td class="sidebar_cell">
-									<% if session[:user_id] %>
 									<div class="sidebar">
 										<ul>
 											<li><%= link_to 'Orders', orders_path %></li>
@@ -84,8 +84,9 @@
 										</ul>
 										<%= button_to 'Logout', logout_path, method: :delete %>
 									</div>
-									<% end %>
 								</td>
+									<% end %>
+									
 								<td>
 									<%= yield %>
 								</td>
