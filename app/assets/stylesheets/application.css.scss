@@ -281,7 +281,7 @@ nav {
 
 a {
   text-decoration: none;
-  color: lightgray;
+  color: grey;
   cursor: pointer;
 }
 
@@ -312,8 +312,27 @@ a:hover {
   vertical-align: top;
 }
 
+.howto_details img {
+  vertical-align: top;
+  text-align: center;
+  padding: 0;
+}
+
 .howto_img {
   vertical-align: top;
+  text-align: center;
+}
+
+.prev_step {
+  text-align: left;
+  font-weight: bold;
+  font-style: italic;
+}
+
+.next_step {
+  text-align: right;
+  font-weight: bold;
+  font-style: italic;
 }
 
 /* Sidebar Menu Section */
@@ -394,13 +413,14 @@ a:hover {
 
 .sidebar_menu ul ul li a {
   display: block;
-  padding: 5px;
+  padding: 0;
   font-size: 12px;
   white-space: nowrap;
 }
 
 .sidebar_menu_this {
   font-weight: bold;
+  color: rgb(255,153,0);
   background-color: rgb(90,90,90);
 }
 

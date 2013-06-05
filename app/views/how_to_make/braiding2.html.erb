@@ -1,5 +1,7 @@
 <% if notice %>
-	<p id="notice"><%= notice %></p>
+<p id="notice">
+	<%= notice %>
+</p>
 <% end %>
 
 <table class="howto_table">
@@ -32,6 +34,12 @@
 									<li>
 										<a href="braiding3.html">Step 3</a>
 									</li>
+									<li>
+										<a href="braiding4.html">Step 4</a>
+									</li>
+									<li>
+										<a href="braiding5.html">Step 5</a>
+									</li>
 								</ul>
 							</li>
 							<li>
@@ -45,41 +53,56 @@
 				</tbody>
 			</table></td>
 
-			<td class="howto_details">
-			<div class="textbox_header">
-				Materials Needed
-			</div> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-			ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-			aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-			eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-			mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-			ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-			aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-			eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-			mollit anim id est laborum.
-			Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-			ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-			aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-			eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-			mollit anim id est laborum. </td>
-
+			<td class="howto_details" colspan="2">
+				<div class="textbox_header">Step 2</div>
+				<p>
+					As you continue braiding, you will notice that the three free ends will shorten.  Continue 
+					to braid Ropes A & B until the lengths of their free ends are the same length as Rope C's 
+					free ends.
+				</p>
+			</td>
+			<td class="howto_img"><%= image_tag("whip.png") %></td>
+		</tr>
+		
+		<tr>
+			<td class="sidebar_cell"></td>
+			<td class="howto_details" colspan="2">
+				<p>
+					Add Rope C to the braid and continue braiding, as shown.
+				</p>
+			</td>
+			<td class="howto_img"><%= image_tag("whip.png") %></td>
+		</tr>
+		
+		<tr>
+			<td class="sidebar_cell"></td>
+			<td class="howto_details" colspan="2"></td>
+			<td class="howto_img"><%= image_tag("whip.png") %></td>
+		</tr>
+		
+		<tr>
+			<td class="sidebar_cell"></td>
+			<td class="howto_details" colspan="2"></td>
+			<td class="howto_img"><%= image_tag("whip.png") %></td>
+		</tr>
+		
+		<tr>
+			<td class="sidebar_cell"></td>
+			<td class="howto_details" colspan="2"></td>
+			<td class="howto_img"><%= image_tag("whip.png") %></td>
+		</tr>
+		
+		<tr>
+			<td class="sidebar_cell"></td>
+			<td class="howto_details" colspan="2"></td>
 			<td class="howto_img"><%= image_tag("whip.png") %></td>
 		</tr>
 
 		<tr>
-			<td class="sidebar_cell"></td>
-
-			<td class="textbox">
-			<div class="textbox_header">
-				Textbox Header!
-			</div> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-			ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-			aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-			eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-			mollit anim id est laborum. </td>
-
-			<td class="howto_img"><%= image_tag("whip.png") %></td>
+			<td></td>
+			<td class="prev_step"><a href="braiding1.html"><- Prev. Step</a></td>
+			<td class="next_step"><a href="braiding3.html">Next Step -></a></td>
+			<td></td>
 		</tr>
 	</tbody>
 </table>
