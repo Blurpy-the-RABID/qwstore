@@ -24,10 +24,7 @@ class HowToMakeController < ApplicationController
 
   def braiding4
   end
-  
-  def braiding5
-  end
-  
+
   def handles
   end
 
