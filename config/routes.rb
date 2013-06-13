@@ -1,7 +1,7 @@
 Qwstore::Application.routes.draw do
-  get "how_to_make" => 'how_to_make#materials'
+  get "how_to_make" => 'how_to_make#index'
 
-  get "materials" => 'how_to_make#materials'
+  get "materials" => 'how_to_make#index'
 
   get "coloring" => 'how_to_make#coloring'
 
