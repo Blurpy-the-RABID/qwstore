@@ -181,6 +181,7 @@ nav {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .navigation li.navigation_this {
@@ -191,6 +192,7 @@ nav {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .navigation li.navigation_this p a.navigation_a_this {
@@ -217,6 +219,7 @@ nav {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
   
 }
 
@@ -225,6 +228,7 @@ nav {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 /* Primary Body Content Section */
@@ -282,6 +286,10 @@ nav {
 a {
   text-decoration: none;
   color: grey;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
   cursor: pointer;
 }
 
@@ -292,6 +300,7 @@ a:hover {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 
@@ -314,23 +323,19 @@ a:hover {
 
 .howto_details img {
   vertical-align: top;
-  text-align: center;
+  text-align: top;
   margin-left: 25%;
 }
 
-.howto_images {
-  padding-left: 20px;
-  vertical-align: top;
-}
-
 .howto_images img {
+  padding-left: 20px;
   vertical-align: top;
 }
 
 .howto_img {
   min-width: 100px;
   vertical-align: top;
-  text-align: center;
+  text-align: top;
 }
 
 .prev_next_table tbody tr {
@@ -398,6 +403,10 @@ a:hover {
   padding: 5px;
   font-weight: bold;
   background-color: rgb(90,90,90);
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .sidebar_bottom {
@@ -427,14 +436,18 @@ a:hover {
   padding: 0;
   margin: 0;
   display: inline;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .sidebar_menu ul li:hover {
   background-color: rgb(90,90,90);
-  -webkit-transition: 0.3s ease-in;
-  -moz-transition: 0.3s ease-in;
-  -o-transition: 0.3s ease-in;
-  transition: 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .sidebar_menu ul li {
@@ -455,16 +468,20 @@ a:hover {
   padding: 0;
   font-size: 12px;
   white-space: nowrap;
+  -webkit-transition: opacity all 0.3s ease-in;
+  -moz-transition: opacity all 0.3s ease-in;
+  -o-transition: opacity all 0.3s ease-in;
+  transition: opacity all 0.3s ease-in;
 }
 
 .sidebar_menu_this {
   font-weight: bold;
   color: rgb(255,153,0);
   background-color: rgb(90,90,90);
-  -webkit-transition: 0.3s ease-in;
-  -moz-transition: 0.3s ease-in;
-  -o-transition: 0.3s ease-in;
-  transition: 0.3s ease-in;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .sidebar_menu ul ul {
@@ -472,10 +489,10 @@ a:hover {
   top: -99999px;
   left: 0;
   opacity: 0;
-  -webkit-transition: opacity 0.3s ease-in;
-  -moz-transition: opacity 0.3s ease-in;
-  -o-transition: opacity 0.3s ease-in;
-  transition: opacity 0.3s ease-in;
+  -webkit-transition: opacity all 0.3s ease-in;
+  -moz-transition: opacity all 0.3s ease-in;
+  -o-transition: opacity all 0.3s ease-in;
+  transition: opacity all 0.3s ease-in;
   z-index: 497;
   margin: 0 0 0 10px;
   padding: 0;
@@ -510,21 +527,25 @@ a:hover {
   border: 1px solid rgb(25,25,25);
   border-collapse: collapse;
   background-color: rgb(90,90,90);
-  width: 200px;
+  min-width: 200px;
 }
 
 .rope_lengths tr th {
   height: 25px;
+  padding-left: 5px;
+  padding-right: 5px;
+  border: 1px solid rgb(25,25,25);
   background-color: rgb(239,74,21);
   color: rgb(102,0,0);
 }
 
-.rope_lengths tr th td {
+.rope_lengths tr td {
   border: 1px solid rgb(25,25,25);
   padding: 3px 5px;
 }
 
 .rope_lengths tr.alt td {
+  border: 1px solid rgb(25,25,25);
   background-color: rgb(70,70,70);
 }
 
@@ -559,6 +580,7 @@ footer {
   -webkit-transition: all 0.3s ease-in;
   -moz-transition: all 0.3s ease-in;
   -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 /*
