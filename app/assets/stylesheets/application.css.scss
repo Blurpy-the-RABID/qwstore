@@ -241,8 +241,7 @@ nav {
 
 /* General Content Section */
 .main_table {
-/*  margin: 20px;
-*/
+//  max-width: 760px;
 }
 
 .intro_img {
@@ -334,13 +333,71 @@ a:hover {
   padding-left: 20px;
   padding-bottom: 20px;
   vertical-align: top;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.howto_images img:hover {
+  padding: 0;
+  -webkit-transform: scale(1.5,1.5);
+  -moz-transform: scale(1.5,1.5);
+  -o-transform: scale(1.5,1.5);
+  transform: scale(1.5,1.5);
+  -webkit-box-shadow: 5px 5px 25px #111111;
+  -moz-box-shadow: 5px 5px 25px #111111;
+  -o-box-shadow: 5px 5px 25px #111111;
+  box-shadow: 5px 5px 25px #111111;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .howto_img {
   padding-left: 10px;
   min-width: 100px;
   vertical-align: top;
-  text-align: top;
+  text-align: center;
+}
+
+.image_area {
+  text-align: center;
+  padding-left: 10px;
+}
+
+.img_table {
+  width: 540px;
+  max-width: 602px;
+  margin-left: 34px;
+  text-align: center;
+}
+
+.img_table tr td {
+  padding: 10px;
+}
+
+.img_table img {
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+
+.img_table img:hover {
+  -webkit-transform: scale(1.5,1.5);
+  -moz-transform: scale(1.5,1.5);
+  -o-transform: scale(1.5,1.5);
+  transform: scale(1.5,1.5);
+  -webkit-box-shadow: 5px 5px 25px #111111;
+  -moz-box-shadow: 5px 5px 25px #111111;
+  -o-box-shadow: 5px 5px 25px #111111;
+  box-shadow: 5px 5px 25px #111111;
+  -webkit-transition: all 0.3s ease-in;
+  -moz-transition: all 0.3s ease-in;
+  -o-transition: all 0.3s ease-in;
+  transition: all 0.3s ease-in;
 }
 
 .prev_next_table tbody tr {
