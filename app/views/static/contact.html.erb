@@ -5,31 +5,39 @@
 <table class="main_table">
 	<tbody>
 		<tr>
-			<td>
-			<div class="textbox_header">
-				Header Text!
-			</div> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-			ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-			aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-			eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-			mollit anim id est laborum. </td>
+			<td class="howto_details">
+				<div class="textbox_header">How To Contact Me</div>
+				<p>
+					If you have questions/comments for me regarding this website or about whips in general, please feel
+					free to contact me:
+				</p>
+				<form>
+					<table>
+						<tbody>
+							<tr>
+								<td class="label">Your E-Mail Address:</td>
+								<td class="tbox">
+								<input type="text" size="30" name="user_email" />
+								</td>
+							</tr>
+							<tr>
+								<td class="label">Comments:</td>
+								<td class="tbox">
+									<textarea cols="23" rows="4" name="comments" ></textarea>
+								</td>
+							</tr>
+							<tr>
+								<td></td>
+								<td class="sbutton">
+									<input type="submit" name="send" value="Send" />
+								</td>
+							</tr>
+						</tbody>
+					</table>
+				</form>
+			</td>
 
-			<td><%= image_tag("whip.png") %></td>
-		</tr>
-	</tbody>
-</table>
-
-<table>
-	<tbody>
-		<tr>
-			<td class="textbox">
-			<div class="textbox_header">
-				Textbox Header!
-			</div> Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt
-			ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut
-			aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore
-			eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt
-			mollit anim id est laborum. </td>
+			<td><%= image_tag("whip4.png") %></td>
 		</tr>
 	</tbody>
 </table>
