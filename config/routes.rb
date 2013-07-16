@@ -32,6 +32,7 @@ Qwstore::Application.routes.draw do
     delete 'logout' => :destroy
   end
   scope '(:locale)' do
+    resources :pay_types
     resources :users
     resources :orders
     resources :line_items

@@ -7,7 +7,7 @@ class HowToMakeControllerTest < ActionController::TestCase
   end
 
   test "should get materials" do
-    get :materials
+    get :index
     assert_response :success
   end
 
